@@ -6,7 +6,7 @@ public class CustomerDAOImpl implements CustomerDAO{
 
 	private JdbcTemplate jdbcTemplate;  
 	  
-	public void setJdbcTemplate(JdbcTemplate jdbcTemplate) {  
+	public void setJdbcTemplate(JdbcTemplate jdbcTemplate) {   
 	    this.jdbcTemplate = jdbcTemplate;  
 	}  
 	public int insert(Customer cust) {
