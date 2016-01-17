@@ -21,7 +21,7 @@ public class TestJdbc {
 		employeeDAO.findEmployee(1);
         //System.out.println(customer1);
 		Customer cust = new Customer();
-		cust.setCustomerId(12);
+		cust.setCustomerId(12); 
 		cust.setCustomerName("Nirakar Mohanty");
 		
 		CustomerDAO customerDAO = (CustomerDAO)ctx.getBean("customerDAO");
