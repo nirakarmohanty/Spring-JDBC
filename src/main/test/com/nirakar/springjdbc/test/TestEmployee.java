@@ -28,12 +28,13 @@ public class TestEmployee {
 		String result = i.next() + " " + i.next();
 		assertEquals("Nirakar Mohanty", result);
 		
-		
+		//Comparable values
 		@SuppressWarnings("unchecked")
 		Comparable<String> c= mock(Comparable.class);
 		when(c.compareTo("Nirakar")).thenReturn(1);
 		when(c.compareTo("Mohanty")).thenReturn(2);
 		assertEquals(1,c.compareTo("Nirakar"));
+		
 		
 		
 
