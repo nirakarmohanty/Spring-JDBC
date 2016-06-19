@@ -8,6 +8,11 @@ import com.nirakar.springjdbc.dao.customer.CustomerDAO;
 import com.nirakar.springjdbc.dao.employee.Employee;
 import com.nirakar.springjdbc.dao.employee.EmployeeDAO;
 
+/** THis is a test class to check SPring JDBC 
+ *  There are two DAO classes Employee and Customer 
+ * @author NIRAKAR
+ *
+ */
 public class TestSpringJdbc {
 
 	public static void main(String[] args) {
