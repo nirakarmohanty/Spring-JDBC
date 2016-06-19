@@ -8,7 +8,7 @@ import com.nirakar.springjdbc.dao.customer.CustomerDAO;
 import com.nirakar.springjdbc.dao.employee.Employee;
 import com.nirakar.springjdbc.dao.employee.EmployeeDAO;
 
-public class TestJdbc {
+public class TestSpringJdbc {
 
 	public static void main(String[] args) {
 		
