@@ -26,13 +26,14 @@ public class TestSpringJdbc {
 		employeeDAO.findEmployee(1);
         //System.out.println(customer1);
 		Customer cust = new Customer();
-		cust.setCustomerId(12); 
+		cust.setCustomerId(11); 
 		cust.setCustomerName("Nirakar Mohanty");
 		
 		CustomerDAO customerDAO = (CustomerDAO)ctx.getBean("customerDAO");
 		int status=customerDAO.insert(cust);
+		int rowCount=customerDAO.rowCount();
         System.out.println(status);
-        
+        System.out.println(rowCount);
 	}
 
 }
