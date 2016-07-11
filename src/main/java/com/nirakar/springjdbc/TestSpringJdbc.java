@@ -31,9 +31,9 @@ public class TestSpringJdbc {
 		
 		CustomerDAO customerDAO = (CustomerDAO)ctx.getBean("customerDAO");
 		int status=customerDAO.insert(cust);
-		int rowCount=customerDAO.rowCount();
+		//int rowCount=customerDAO.rowCount();
         System.out.println(status);
-        System.out.println(rowCount);
+        //System.out.println(rowCount);
 	}
 
 }
