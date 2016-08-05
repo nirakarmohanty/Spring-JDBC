@@ -12,7 +12,7 @@ import java.sql.Statement;
  * 
  */
 public class TestJDBC {
-
+ 
 	/**
 	 * @param args
 	 * @throws ClassNotFoundException
