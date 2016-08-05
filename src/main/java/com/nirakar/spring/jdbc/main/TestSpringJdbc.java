@@ -1,12 +1,12 @@
-package com.nirakar.springjdbc;
+package com.nirakar.spring.jdbc.main;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.nirakar.springjdbc.dao.customer.Customer;
-import com.nirakar.springjdbc.dao.customer.CustomerDAO;
-import com.nirakar.springjdbc.dao.employee.Employee;
-import com.nirakar.springjdbc.dao.employee.EmployeeDAO;
+import com.nirakar.spring.jdbc.dao.customer.Customer;
+import com.nirakar.spring.jdbc.dao.customer.CustomerDAO;
+import com.nirakar.spring.jdbc.dao.employee.Employee;
+import com.nirakar.spring.jdbc.dao.employee.EmployeeDAO;
 
 /** THis is a test class to check SPring JDBC 
  *  There are two DAO classes Employee and Customer 

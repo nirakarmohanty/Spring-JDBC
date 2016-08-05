@@ -1,4 +1,4 @@
-package com.nirakar.springjdbc.dao.customer;
+package com.nirakar.spring.jdbc.dao.customer;
 
 import org.springframework.jdbc.core.JdbcTemplate;
 

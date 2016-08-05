@@ -1,4 +1,4 @@
-package com.nirakar.springjdbc.dao.employee;
+package com.nirakar.spring.jdbc.dao.employee;
 
 public class Employee {
 	

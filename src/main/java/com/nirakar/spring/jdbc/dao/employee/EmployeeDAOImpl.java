@@ -1,4 +1,4 @@
-package com.nirakar.springjdbc.dao.employee;
+package com.nirakar.spring.jdbc.dao.employee;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

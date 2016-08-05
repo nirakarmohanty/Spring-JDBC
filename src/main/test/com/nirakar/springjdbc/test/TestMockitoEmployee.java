@@ -9,9 +9,14 @@ import java.util.Iterator;
 import org.junit.Test;
 import org.mockito.Mockito;
 
-import com.nirakar.springjdbc.dao.employee.Employee;
+import com.nirakar.spring.jdbc.dao.employee.Employee;
 
-public class TestEmployee {
+/**
+ * Sample Mockito class .
+ * @author NIRAKAR
+ *
+ */
+public class TestMockitoEmployee {
 
 	@Test
 	public void test() {
